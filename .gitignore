@@ -2,8 +2,24 @@
 env1/
 __pycache__/
 *.pyc
+*.pyo
 .env
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Tranco cache (large downloaded file)
+.tranco/
+
+# Node modules (React frontend)
+frontend/node_modules/
+
+# React build output
+frontend/build/
+
+# VS Code
+.vscode/
